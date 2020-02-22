@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!DOCTYPE crimes [
+<!ELEMENT crime (date,borough , coord_x,coord_y,desc_crime ,desc_specificity, jurisdiction) > 
+ <!ELEMENT date (#PCDATA) > 
+ <!ELEMENT borough (#PCDATA) >
+  <!ELEMENT coord_x (#PCDATA) >
+ <!ELEMENT coord_y (#PCDATA) > 
+ <!ELEMENT desc_crime (#PCDATA) > 
+  <!ELEMENT desc_crime (#PCDATA) > 
+ <!ELEMENT jurisdiction (#PCDATA) >
+]>
+
+<crime>
+	<date>19/05/2019</date>
+	<borough>MANHATTAN</borough>	
+	<coord_x>0</coord_x>
+	<coord_y>1</coord_y>
+	<desc_crime>Drug_traffic</desc_crime>
+	<desc_specificity>of boat</desc_specificity>
+	<jurisdiction>3</jurisdiction>
+</crime>
+
